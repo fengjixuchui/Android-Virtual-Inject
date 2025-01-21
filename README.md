@@ -1,6 +1,11 @@
 # Android-Virtual-Inject
 An Android Injector aimed to inject through Virtual Space without root permissions.
 
+[![Stars](https://img.shields.io/github/stars/reveny/Android-Virtual-Inject?label=Stars)](https://github.com/reveny)
+[![Release](https://img.shields.io/github/v/release/reveny/Android-Virtual-Inject?label=Release&logo=github)](https://github.com/reveny/Android-Virtual-Inject/releases/latest)
+[![Download](https://img.shields.io/github/downloads/reveny/Android-Virtual-Inject/total?label=Downloads&logo=github)](https://github.com/reveny/Android-Virtual-Inject/releases/)
+[![CI](https://github.com/reveny/Android-Virtual-Inject/actions/workflows/main.yml/badge.svg)](https://github.com/reveny/Android-Virtual-Inject/actions/workflows/main.yml)
+
 ## What Makes This Project Different from Others?
 - **Android 14 support**: Provides compatibility with the latest version of Android.
 - **Clean and modular code**: Easy to understand, maintain, and extend.
