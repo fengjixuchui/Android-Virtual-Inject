@@ -23,15 +23,5 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        // Use package name to install provided that application has been install on device
-        BlackBoxCore.get().installPackageAsUser("com.pixel.gun3d", 0);
-
-        boolean isInstalled = BlackBoxCore.get().isInstalled("com.pixel.gun3d", 0);
-        Log.i("VirtualInjectLog", "isInstalled: " + isInstalled);
-
-        if (isInstalled) {
-            // BlackBoxCore.get().launchApk("com.pixel.gun3d", 0);
-        }
     }
 }
